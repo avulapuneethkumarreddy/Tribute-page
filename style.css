@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    background-color: #1d1e4c;
+    margin: 0vh;
+    padding: 0vh;
+    border: 0vh;
+    height:170vh;
+    width: 99vw;
+    display: flex;
+
+}
+.content{
+    /* align-items: center; */
+    /* padding:3vh 2vh ; */
+    /* border: 3vh 2vh; */
+    margin-top: 2vh;
+    margin-left: 1vw;
+    background-color:#e5e5fd;
+    height: 98%;
+    width: 98%;
+    padding-left: 25vw;
+    padding-top: 5vh;
+    display: inline-block;
+    /* background-color: green; */
+    box-sizing: border-box;
+    
+}
+.title{
+    display: flex;
+
+    /* background-color: aqua; */
+    /* box-sizing: border-box; */
+}
+.image{
+    border-radius: 100vh;
+    background-color: rgb(27, 48, 102);
+    background-image: url("images/apj.jpg");
+    background-size: contain;
+    z-index: 100;
+    height: 43vh;
+    width: 35vh;
+    /* box-sizing: border-box; */
+}
+.name{
+    font-size: 3em;
+    margin-left: 3vw;
+    padding-top: 34vh;
+    /* font-size: px; */
+    line-height: 30px;
+    letter-spacing: 1.2px;
+    text-align: justify;
+    color: #1d1e4c;
+    /* background-color: red; */
+    /* justify-content: center; */
+    /* text-align-last: center; */
+}
+.text_content{
+    font-size: large;
+    padding-top: 2vh;
+    /* background-color: bisque; */
+    padding-right:20vw;
+    line-height: 30px;
+letter-spacing: 1.2px;
+text-align: justify;
+}
+.biographies{
+    font-size: medium;
+    padding-left: 5vh;
+}
+.readmore{
+    text-align: end;
+    /* padding-right:3vw ; */
+}
+.missilemantitle{
+    font-size: 1.75em;
+}
